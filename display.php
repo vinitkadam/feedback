@@ -1,0 +1,15 @@
+<?php
+include 'connect.php';
+$sql_images="select * from image";
+$result=mysqli_query($connect,$sql_images);
+
+while($row=mysqli_fetch_array($result))
+{
+	echo '<img src="images/'.$row[1].'">';
+	echo " ";
+	echo $row[2];
+	echo '<br>';
+	
+}
+
+?>
