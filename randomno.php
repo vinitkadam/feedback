@@ -61,7 +61,7 @@ $mail->Username = "raitloginemail@gmail.com";
 $mail->Password = "rait@123";
 
 //Set who the message is to be sent from
-$mail->setFrom('raitloginemail@gmail.com', 'Feedback System');
+$mail->setFrom('raitloginemail@gmail.com', 'Feedback Team');
 
 //Set an alternative reply-to address
 //$mail->addReplyTo('raitloginemail@gmail.com');
