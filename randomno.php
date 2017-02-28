@@ -40,7 +40,7 @@ $mail->Debugoutput = 'html';
 //Set the hostname of the mail server
 //$mail->Host = gethostbyname('smtp.gmail.com');
 
-$mail->Host = 'smtp.mail.yahoo.com';
+$mail->Host = 'smtp.gmail.com';
 // use
 // $mail->Host = gethostbyname('smtp.mail.yahoo.com');
 // if your network does not support SMTP over IPv6
@@ -55,16 +55,16 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "vinitkadam03@yahoo.com";
+$mail->Username = "raitloginemail@gmail.com";
 
 //Password to use for SMTP authentication
-$mail->Password = "coldfusion@1997";
+$mail->Password = "rait@123";
 
 //Set who the message is to be sent from
-$mail->setFrom('vinitkadam03@yahoo.com', 'Vinit Kadam');
+$mail->setFrom('raitloginemail@gmail.com', 'Feedback System');
 
 //Set an alternative reply-to address
-//$mail->addReplyTo('vinitkadam03@yahoo.com');
+//$mail->addReplyTo('raitloginemail@gmail.com');
 
 //Set who the message is to be sent to
 $mail->addAddress($email);
